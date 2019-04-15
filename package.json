@@ -13,9 +13,14 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "deck.gl": "^7.0.0-rc.1",
     "gatsby": "^2.3.16",
+    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-json": "^2.1.11",
+    "mapbox-gl": "^0.53.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-map-gl": "^4.1.2"
   },
   "devDependencies": {
     "prettier": "^1.17.0"
