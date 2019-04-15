@@ -28,16 +28,19 @@ class Map extends React.Component {
       getFillColor: [200, 0, 200]  
     })
 
-    const grid  = new GridLayer({
+    const grid = new GridLayer({
       id: 'grid-layer',
       data: this.props.locations,
       colorRange: [[50, 240, 100, 45],[50, 240, 100, 95],[50, 240, 100, 135],[50, 240, 100, 175],[50, 240, 100, 215],[50, 240, 100, 255]],
-      //pickable: true,
+      pickable: true,
       extruded: false,
       cellSize: 600,
       elevationScale: 4,
       opacity: 0.5,
       getPosition: d => d.position,
+      onClick: ({ object }) => {
+        this.props.onSelectArea(object)
+      }
     });
 
     return (
