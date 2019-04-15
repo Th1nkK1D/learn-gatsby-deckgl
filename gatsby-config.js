@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/learn-gatsby-deckgl",
   plugins: [
     'gatsby-transformer-json',
     {
