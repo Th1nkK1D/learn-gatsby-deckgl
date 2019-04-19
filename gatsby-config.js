@@ -2,6 +2,7 @@ module.exports = {
   pathPrefix: "/learn-gatsby-deckgl",
   plugins: [
     'gatsby-transformer-json',
+    'gatsby-transformer-csv',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -16,6 +16,7 @@
     "deck.gl": "^7.0.0-rc.1",
     "gatsby": "^2.3.16",
     "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-csv": "^2.0.8",
     "gatsby-transformer-json": "^2.1.11",
     "gl": "^4.2.2",
     "mapbox-gl": "^0.53.1",
